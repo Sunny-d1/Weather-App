@@ -88,7 +88,7 @@ function App() {
         <div className="city-input-container">
           <input
             type="text"
-            placeholder="เพิ่มเข้าในรายการโปรด"
+            placeholder="Add city to favorite"
             value={newCityName}
             onChange={(event) => setNewCityName(event.target.value)}
             onKeyPress={(event) => {
